@@ -11,14 +11,14 @@ const Hero = () => {
           {/* Left Section */}
 
           <div className="flex-1 ">
-            <h4 className="text-[#00616C] text-xs md:text-sm ">
+            <h4 className="text-[#00616C] font-semibold text-md md:text-xl ">
               Presidential Initiative for Artificial Intelligence and Computing
               (PIAIC)
             </h4>
-            <h1 className="font-bold text3xl md:text-4xl">
+            <h1 className="font-bold text-3xl md:text-4xl">
               Certified Web 3.0 and Metaverse Developer
             </h1>
-            <p className="mt-2 md:mt-4 text-sm md:text-xl text-slate-600">
+            <p className="mt-2 md:mt-4 text-md md:text-xl text-slate-600">
               A One and Quarter Years Panaverse DAO Earn as you Learn Program
               Getting Ready for the Next Generation of the Internet
               Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI),
@@ -32,7 +32,7 @@ const Hero = () => {
 
           {/* Right Section*/}
           <div className="flex-1">
-            <Image src={herPoster} alt="Rohan Ali" />
+            <Image src={herPoster} alt="Rohan Ali"/>
           </div>
         </div>
       </Wrapper>
